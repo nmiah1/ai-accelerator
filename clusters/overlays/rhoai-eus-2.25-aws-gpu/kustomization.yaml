@@ -25,7 +25,7 @@ resources:
 configMapGenerator:
   - name: gitops-repo-config
     literals:
-      - repoURL=https://github.com/https://github.com/nmiah1/ai-accelerator.git
+      - repoURL=https://github.com/nmiah1/ai-accelerator.git
       - targetRevision=main
 
 replacements:
