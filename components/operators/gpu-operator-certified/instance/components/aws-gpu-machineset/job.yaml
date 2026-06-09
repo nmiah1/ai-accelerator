@@ -17,7 +17,7 @@ spec:
           image: registry.redhat.io/openshift4/ose-cli
           env:
             - name: INSTANCE_TYPE
-              value: "g6e.4xlarge"
+              value: "g6e.12xlarge"
             - name: NAMESPACE
               valueFrom:
                 fieldRef:

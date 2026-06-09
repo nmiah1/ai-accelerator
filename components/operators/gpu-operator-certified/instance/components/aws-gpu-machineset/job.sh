@@ -70,7 +70,7 @@ ocp_aws_clone_machineset(){
 }
 
 ocp_create_machineset_autoscale(){
-  MACHINE_MIN=${1:-0}
+  MACHINE_MIN=${1:-1}
   MACHINE_MAX=${2:-4}
   MACHINE_SETS=${3:-$(oc -n openshift-machine-api get machinesets.machine.openshift.io -o name | sed 's@.*/@@' )}
 
